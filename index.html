@@ -15966,7 +15966,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>These don't look like a list of top players at all(besides a Hungrybox copycat who won a single tournament)! What looks to be happening is that players who often attend and win their local tournaments end up with a very high winrate - this does make sense, and is why winrate is a pretty limited metric for ranking. Let's test how well correlated this chart is with SSBMRank for each season.</p>
+<p>These don't look like a list of top players at all! What looks to be happening is that players who often attend and win their local tournaments end up with a very high winrate - this does make sense, and is why winrate is a pretty limited metric for ranking. Let's test how well correlated this chart is with SSBMRank for each season.</p>
 <p>I will use an external library named <a href="https://pypi.org/project/scipy/">scipy</a> for this and future p-value calculations.</p>
 
 </div>
@@ -17114,7 +17114,7 @@ class="
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Points-Gained-by-Tourney-Placements">Points Gained by Tourney Placements<a class="anchor-link" href="#Points-Gained-by-Tourney-Placements">&#182;</a></h3><p>Glicko-2 seems imperfect for rewarding tournament placements so let's try a more normal system. One very common system for rewarding tournament systems is to assign each tournament a total point value based on size and then give players points based on their placements. To avoid rewarding players for showing up and winning the same small tournament over and over, many such systems also cap the number of tournaments a player can be rewarded for (these are often referred to as markers). I'll assign each tournament a point value based on the number of entrants - first let's look at the distribution!</p>
-<p>This &quot;normal&quot; system is heavily inspired by the points system used in the <a href="http://results.apda.online">American Parliamentary Debate Association standings for Player of the Year / Team of the Year</a> but it's also notably similar to a ranking system used in Melee's sequel's sequel's sequel (Smash Ultimate) known as <a href="https://liquipedia.net/smash/OrionRank">OrionRank</a>. (I know the wiki reports a different methodology for OrionRank - it's <a href="https://docs.google.com/document/d/103D0dEn3GkBSrbKE5BEr8Kmwl9OdTTBD-LSziFU8Hec/edit">been changed</a>, the wiki is just out of data :P).</p>
+<p>This &quot;normal&quot; system is heavily inspired by the points system used in the <a href="http://results.apda.online">American Parliamentary Debate Association standings for Player of the Year / Team of the Year</a>. It shares a passing resemblence to, but is MUCH less complex than, a ranking system used in Super Smash Brothers Ultimate (Melee's sequel's sequel's sequel) known as <a href="https://liquipedia.net/smash/OrionRank">OrionRank</a>. (I know the wiki reports a different methodology for OrionRank - it's <a href="https://docs.google.com/document/d/103D0dEn3GkBSrbKE5BEr8Kmwl9OdTTBD-LSziFU8Hec/edit">been changed</a>, the wiki is just out of data :P).</p>
 
 </div>
 </div>
@@ -18429,7 +18429,7 @@ The probability of a levene stat at least as strong as this for 2015-2019 and 20
 <p>In addition, I've provided a couple of interesting tables / figures to help understand what this years SSBMRank might look like:</p>
 <ul>
 <li>the top 100 players of the year by Glicko-2 rating (potential ranked players)</li>
-<li>the 80 players who have placed well enough at tournaments to earn a Tournament Points rating for this year (likely ranked players)</li>
+<li>the top 100 players who have placed well enough at tournaments to earn a Tournament Points rating for this year (likely ranked players)</li>
 <li>main character composition of these potential ranked players + character compositions of past SSBMRanks to compare</li>
 </ul>
 
